@@ -118,6 +118,9 @@ function GameOver() {
     this.elemento.addEventListener('click', () => {
         location.reload()
     })
+    this.elemento.addEventListener('touchstart', () => {
+        location.reload()
+    })
 }
 
 // const barreiras = new Barreiras(700, 1200, 200, 400)
