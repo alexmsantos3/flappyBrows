@@ -115,6 +115,9 @@ function Progresso() {
 function GameOver() {
     this.elemento = novoElemento('img', 'gameover')
     this.elemento.src = 'imgs/gameOver.png'
+    this.elemento.addEventListener('click', () => {
+        location.reload()
+    })
 }
 
 // const barreiras = new Barreiras(700, 1200, 200, 400)
